@@ -43,7 +43,7 @@ import me.weishu.kernelsu.ui.util.*
 import me.weishu.kernelsu.ui.util.module.LatestVersionInfo
 
 @OptIn(ExperimentalMaterial3Api::class)
-@Destination<RootGraph>
+@Destination<RootGraph>(start = true)
 @Composable
 fun HomeScreen(navigator: DestinationsNavigator) {
     val kernelVersion = getKernelVersion()

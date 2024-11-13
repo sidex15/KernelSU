@@ -102,7 +102,7 @@ import me.weishu.kernelsu.ui.webui.WebUIActivity
 import okhttp3.OkHttpClient
 
 @OptIn(ExperimentalMaterial3Api::class)
-@Destination<RootGraph>(start = true)
+@Destination<RootGraph>
 @Composable
 fun ModuleScreen(navigator: DestinationsNavigator) {
     val viewModel = viewModel<ModuleViewModel>()
