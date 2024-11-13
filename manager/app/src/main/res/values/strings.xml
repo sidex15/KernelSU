@@ -50,6 +50,7 @@
     <string name="home_unofficial_kernelsu">Unofficial Build</string>
     <string name="home_unofficial_kernelsu_announce">https://github.com/tiann/KernelSU/issues/1705</string>
     <string name="home_unofficial_kernelsu_body">Non-GKI support ended with v0.9.5; see announcement.</string>
+    <string name="home_n3x7g3n_kernelsu_body">This Version of KernelSU Manager is signed for n3x7g3n kernels only and cannot be used to other KernelSU kernels.</string>
     <string name="home_learn_kernelsu">Learn KernelSU</string>
     <string name="home_learn_kernelsu_url">https://kernelsu.org/guide/what-is-kernelsu.html</string>
     <string name="home_click_to_learn_kernelsu">Learn how to install KernelSU and use modules</string>

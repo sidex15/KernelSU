@@ -421,7 +421,7 @@ private fun InfoCard() {
             val managerVersion = getManagerVersion(context)
             InfoCardItem(
                 stringResource(R.string.home_manager_version),
-                "${managerVersion.first} (${managerVersion.second})"
+                "${managerVersion.first}🔥 (${managerVersion.second})"
             )
 
             Spacer(Modifier.height(16.dp))
@@ -452,6 +452,11 @@ fun Unofficial() {
                 Spacer(Modifier.height(4.dp))
                 Text(
                     text = stringResource(R.string.home_unofficial_kernelsu_body),
+                    style = MaterialTheme.typography.bodyMedium
+                )
+                Spacer(Modifier.height(4.dp))
+                Text(
+                    text = stringResource(R.string.home_n3x7g3n_kernelsu_body),
                     style = MaterialTheme.typography.bodyMedium
                 )
             }
