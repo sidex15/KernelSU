@@ -38,7 +38,6 @@
     <string name="module_uninstall_failed">Не вдалося видалити: %s</string>
     <string name="module_version">Версія</string>
     <string name="module_author">Автор</string>
-    <string name="module_overlay_fs_not_available">overlayfs не доступний, модуль не може працювати!</string>
     <string name="refresh">Освіжати(Оновити)</string>
     <string name="show_system_apps">Показати системні додатки</string>
     <string name="hide_system_apps">Сховати системні додатки</string>
@@ -118,8 +117,6 @@
     <string name="select_file_tip">%1$s образ розділу рекомендується</string>
     <string name="grant_root_failed">Не вдалося отримати root!</string>
     <string name="open">Відкрити</string>
-    <string name="shrink_sparse_image">Мінімізувати розріджений образ</string>
-    <string name="shrink_sparse_image_message">Змінити розмір розрідженого образу, в якому знаходяться модулі, до його фактичного розміру. Зверніть увагу, що це може спричинити ненормальну роботу модулів, тому використовуйте це лише за потреби (наприклад, для резервного копіювання)</string>
     <string name="settings_uninstall_temporary">Тимчасово видалити</string>
     <string name="settings_uninstall_permanent">Назавжди видалити</string>
     <string name="settings_restore_stock_image">Відновити Стоковий образ</string>
