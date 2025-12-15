@@ -29,6 +29,10 @@
 #include "selinux/selinux.h"
 #include "objsec.h"
 #include "file_wrapper.h"
+#ifdef CONFIG_KSU_SUSFS
+#include "linux/susfs_def.h"
+#include "linux/susfs.h"
+#endif // #ifdef CONFIG_KSU_SUSFS
 
 bool susfs_is_boot_completed_triggered __read_mostly = false;
 
